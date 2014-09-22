@@ -1,0 +1,30 @@
+```xml
+<?xml version="1.0"?>
+<MasterConfig>
+
+<vcenterconfig>
+<vcenter>VCENTER-FQDN</vcenter>
+<vcusername>USERNAME FOR VCENTER</vcusername>
+<vcpassword>PASSWORD FOR VCENTER USER</vcpassword>
+</vcenterconfig>
+
+<Config>
+<vsmovalocation>LOCATION OF VSHIELD APPLIANCE OVA FILE</vsmovalocation>
+<MgmtNetwork>MANAGEMENT NETWORK FOR VSHIELD APPLIANCE</MgmtNetwork>
+<ClusterName>CLUSTER TO DEPLOY VSHIELD APPLIANCE</ClusterName>
+<pmpassword>PRIVILEGED USER PASSWORD</pmpassword>
+<userpassword>USER PASSWORD</userpassword>
+<vAppName>VSHIELD APPLIANCE NAME FQDN</vAppName>
+<vsmip>VSHIELD APPLIANCE IP</vsmip>
+<vsmnetmask>NETMASK</vsmnetmask>
+<vsmgateway>GATEWAY</vsmgateway>
+<vsmhostname>VSHIELD APPLIANCE HOSTNAME</vsmhostname>
+<vsmvCenteruser>VSHIELD-VCENTER USER NAME</vsmvCenteruser>
+<vsmvCenterpass>VSHIELD-VCENTER PASSWORD</vsmvCenterpass>
+<primarydns>PRIMARY DNS FOR VSHIELD</primarydns>
+<secondarydns>SECONDARY DNS FOR VSHIELD</secondarydns>
+<timeserverinfo>NTP TIME SERVER</timeserverinfo>
+</Config>
+
+</MasterConfig>
+```
