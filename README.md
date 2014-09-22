@@ -38,7 +38,7 @@ Follow the below steps to properly execute the file.
 
 Contents Config.xml
 ===================
-
+```xml
 <?xml version="1.0"?>
 <MasterConfig>
 
@@ -67,7 +67,7 @@ Contents Config.xml
 </Config>
 
 </MasterConfig>
-
+```
 Known Issues
 ============
 
