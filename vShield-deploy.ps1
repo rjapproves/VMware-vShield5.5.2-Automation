@@ -1,14 +1,14 @@
-******************************************************************
-******************************************************************
-**Special thanks to Alan for guidance and fixing the ovf config!**
-**Author: RJ Singh                                              **
-**Version: v1.0                                                 **
-**Date: 09/21/2014                                              **
-**Licensing: MIT License Zero Liability Open Source             **
-**Contact: admin@rjapproves.com                                 **
-**Website: www.rjapproves.com                                   **
-******************************************************************
-******************************************************************
+#******************************************************************
+#******************************************************************
+#**Special thanks to Alan for guidance and fixing the ovf config!**
+#**Author: RJ Singh                                              **
+#**Version: v1.0                                                 **
+#**Date: 09/21/2014                                              **
+#**Licensing: MIT License Zero Liability Open Source             **
+#**Contact: admin@rjapproves.com                                 **
+#**Website: www.rjapproves.com                                   **
+#******************************************************************
+#******************************************************************
 #Making sure snapin is in place
 Add-PSSnapin Vmware.vimautomation.core
 
