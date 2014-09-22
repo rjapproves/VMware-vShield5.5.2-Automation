@@ -84,7 +84,11 @@ Function Set-vShieldConfiguration ($vCenter, $Username, $Password, $timeserver) 
 Function Calling-rest($URL,$Body) {
 
 $headers = @{"Content-Type"="application/xml";"Authorization"="Basic YWRtaW46ZGVmYXVsdA=="}
-Invoke-RestMethod -Headers $headers -Uri $URL -Body $Body -Method Post
+try {Invoke-RestMethod -Headers $headers -Uri $URL -Body $Body -Method Post } 
+            catch { $result = $_.Exception.Response.GetResponseStream()
+                    $reader = New-Object System.IO.StreamReader($result)
+                    $responseBody = $reader.ReadToEnd();
+                    write-host $responseBody }
  } 
 
 #Identify the right cluster and host to deploy vShield Manager vApp
